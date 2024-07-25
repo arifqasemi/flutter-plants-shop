@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/models/pages.dart';
-import 'package:my_app/screens/detailscreen.dart';
 import 'package:my_app/screens/onboardscreen.dart';
-import 'package:my_app/widgets/indicator.dart';
 // import 'package:my_app/screens/profilescreen.dart';
 // import 'package:my_app/screens/detailScreen.dart';
 // import 'package:my_app/screens/mainscreen.dart';
