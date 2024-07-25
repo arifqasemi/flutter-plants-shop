@@ -152,6 +152,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "responsive_builder",
+      "rootUri": "file:///C:/Users/Arif/AppData/Local/Pub/Cache/hosted/pub.dev/responsive_builder-0.4.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/Users/Arif/Downloads/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -224,7 +230,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-07-24T04:26:10.198126Z",
+  "generated": "2024-07-25T08:10:35.778985Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///C:/Users/Arif/Downloads/flutter",

@@ -3,6 +3,8 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:my_app/screens/detailScreen.dart';
 import 'package:my_app/widgets/plantcard.dart';
 import 'package:my_app/widgets/screentop.dart';
+import 'package:responsive_builder/responsive_builder.dart';
+
 
 class PlantListScreen extends StatelessWidget {
   const PlantListScreen({super.key});
@@ -11,7 +13,7 @@ class PlantListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(236, 236, 238, 255),
-      body: Padding(
+      body: ScreenTypeLayout(mobile:  Padding(
         padding: const EdgeInsets.only(right: 20, left: 20),
         child: Column(
           children: [
@@ -57,6 +59,7 @@ class PlantListScreen extends StatelessWidget {
           ],
         ),
       ),
+      desktop: const Text('the desktop app is under construction'),)
     );
   }
 }
